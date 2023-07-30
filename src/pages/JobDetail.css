@@ -1,0 +1,109 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border:1px solid white;
+}
+.company-logo{
+  height:125px;
+  width:125px;
+  border-radius:15px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.app-btn{
+  background-color:#3773c5;
+  color:white;
+}
+
+.banner-img{
+  height: 210px;
+   border-radius: 15px;
+}
+
+.heading{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.post-timeline{
+  color:grey;
+   padding:10px 0px;
+   text-align: right;
+}
+
+.problem-report{
+  color:red;
+  font-weight:bold;
+}
+  
+  .profile-pic-container {
+    display: block;
+    margin-top: -5%;
+  }
+  
+  .grid-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f6f6fa;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .first-part{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  .second-part{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    height: 0%;
+  }
+
+  .app-btn{
+    border-radius:30px;
+    font-weight: bold;
+    gap: 10px;
+    padding: 10px 20px;
+  }
+
+  .bottom-half-banner{
+    padding: 0px 3%;
+    background-color: white;
+    padding-bottom: 2%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .job-title{
+    font-size: 26px;
+    padding: 10px 0px;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width:768px) {
+    .logo{
+      height: 30px;
+      width: 30px;
+    }
+
+    .profile-pic-container{
+        margin-top:-25%;
+    }
+
+  }
+
+  @media screen and (max-width:1024px) and (min-width:768px) {
+    .profile-pic-container {
+      margin-top: -10%;
+  }
+  }
+

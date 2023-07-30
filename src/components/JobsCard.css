@@ -1,0 +1,29 @@
+.fontS-14{
+    font-size: 14px;
+}
+
+.fontS-20{
+    font-size:20px;
+}
+
+.tagButtonStyle{
+    padding: 8px;
+    background: transparent;
+    color: grey;
+    border:1px solid grey;
+    border-radius: 30px;
+    font-size:14px;
+}
+
+.dateButtonStyle{
+    color: #0f0f0e;
+    background: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight:bold;
+  };
+
+.cardStyle{
+    border: 1px solid #d7d7d7;
+    border-radius:20px;
+  };

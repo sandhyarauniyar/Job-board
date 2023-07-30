@@ -1,0 +1,36 @@
+.center-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-icons{
+    border:1px solid white;
+    border-radius:50%;
+    height:40px;
+    width:40px;
+  }
+
+
+.fontS-14{
+    font-size: 14px;
+}
+
+.nav-box{
+    padding:20px;
+    padding-right:40px;
+}
+
+.setting, .notification{
+    border:1px solid white;
+    border-radius:50%;
+    height:30px;
+    width:30px;
+}
+
+.profile{
+    height:25px;
+    width:25px;
+    background-color:white;
+    border-radius:50%;
+}
