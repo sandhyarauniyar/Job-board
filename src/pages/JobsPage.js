@@ -78,12 +78,12 @@ function JobsPage() {
   
                   <div className='flex items-center justify-center mt-4 mb-8'>
                     <nav aria-label="Page navigation">
-                      <ul class="inline-flex -space-x-px text-sm" onClick={handleClick} style={{cursor:"pointer"}}>
+                      <ul className="inline-flex -space-x-px text-sm" onClick={handleClick} style={{cursor:"pointer"}}>
                         <li>
                           <span className="flex items-center justify-center px-3 h-8 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">Previous</span>
                         </li>
                         <li>
-                          <span className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white  ${currentPage == startPage ? "currentPage" : "" } `}>{startPage}</span>
+                          <span className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${currentPage == startPage ? "currentPage" : "" } `}>{startPage}</span>
                         </li>
                         <li>
                           <span className={`flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 ${currentPage == startPage+1 ? "currentPage" : "" }`}>{startPage+1}</span>
